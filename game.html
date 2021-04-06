@@ -18,11 +18,14 @@
                 createCanvas(w,h)
             }
             function draw() {
+                clear()
                 //when someone presses the spacebar
                 if (keyIsDown(32)) {
                     //play sound
                     boing.play();
                 }
+                //image(variablename,x,y,width, height)
+                image(fireball,mouseX,mouseY,,100,100)
             }
         </script>
     </body>
